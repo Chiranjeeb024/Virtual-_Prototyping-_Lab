@@ -745,7 +745,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b3a87cb684eeb5e42a9787485bb26b99,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -83.377
+      value: -83.137
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b3a87cb684eeb5e42a9787485bb26b99,
         type: 3}
@@ -755,7 +755,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b3a87cb684eeb5e42a9787485bb26b99,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 31.231
+      value: 32.724
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b3a87cb684eeb5e42a9787485bb26b99,
         type: 3}
@@ -3843,8 +3843,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132147722799138}
   m_LocalRotation: {x: -0, y: -0.06726385, z: -0, w: 0.9977352}
-  m_LocalPosition: {x: -81.222, y: 0.859, z: 30.903}
-  m_LocalScale: {x: 0.2089722, y: 0.2089722, z: 0.2089722}
+  m_LocalPosition: {x: -81.219, y: 0.711, z: 30.895}
+  m_LocalScale: {x: 0.12954815, y: 0.12954815, z: 0.12954815}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2394010016640969762}
@@ -9139,6 +9139,7 @@ GameObject:
   - component: {fileID: 5476017752107551002}
   - component: {fileID: 872471310800807051}
   - component: {fileID: 9173388769962080614}
+  - component: {fileID: 9173388769962080615}
   m_Layer: 0
   m_Name: containers
   m_TagString: Untagged
@@ -10259,6 +10260,7 @@ GameObject:
   - component: {fileID: 4630957512251634774}
   - component: {fileID: 4630957512251634776}
   - component: {fileID: 4630957512251634775}
+  - component: {fileID: 4630957512251634777}
   m_Layer: 0
   m_Name: blades
   m_TagString: Untagged
@@ -11467,6 +11469,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotationSpeed: 60
+--- !u!95 &4630957512251634777
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4074457443458703696}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 32b74bd770033564f8284b1432b9b82c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!23 &4634749818474816198
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11744,6 +11766,7 @@ GameObject:
   - component: {fileID: 5787655782958983712}
   - component: {fileID: 6910136027192807232}
   - component: {fileID: 4152573753177821750}
+  - component: {fileID: 6910136027192807233}
   m_Layer: 0
   m_Name: turbine_hull
   m_TagString: Untagged
@@ -15977,6 +16000,26 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4784615594991408842}
   m_Mesh: {fileID: -66355591890676455, guid: e5ef9a45f8bc3104f824d6d9410d73ef, type: 3}
+--- !u!95 &6910136027192807233
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4784615594991408842}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 714634c76fa009b40a960d61edb58fe3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!23 &6920852495794863927
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -20645,6 +20688,26 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!95 &9173388769962080615
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3611884963076845299}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4a62d163e6c367a439b436e51a438755, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &9188927931038420943
 GameObject:
   m_ObjectHideFlags: 0
