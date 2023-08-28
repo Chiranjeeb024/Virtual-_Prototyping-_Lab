@@ -429,6 +429,7 @@ GameObject:
   - component: {fileID: 107636671}
   - component: {fileID: 107636670}
   - component: {fileID: 107636669}
+  - component: {fileID: 107636672}
   m_Layer: 5
   m_Name: Turbine
   m_TagString: Untagged
@@ -500,7 +501,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 107636670}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2034660468}
+        m_TargetAssemblyTypeName: GameObjectActivator, Assembly-CSharp
+        m_MethodName: ToggleGameObjects
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &107636670
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -539,6 +552,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 107636667}
   m_CullTransparentMesh: 1
+--- !u!114 &107636672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 107636667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3a18c9e0405e1e4bab17ef2a7d1b695, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectsToToggle: []
 --- !u!1 &120259892
 GameObject:
   m_ObjectHideFlags: 0
@@ -1594,7 +1620,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &530798005
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1689,6 +1715,7 @@ GameObject:
   - component: {fileID: 559812115}
   - component: {fileID: 559812114}
   - component: {fileID: 559812113}
+  - component: {fileID: 559812116}
   m_Layer: 5
   m_Name: Start
   m_TagString: Untagged
@@ -1760,7 +1787,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 559812114}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 559812116}
+        m_TargetAssemblyTypeName: CanvasActivator, Assembly-CSharp
+        m_MethodName: ToggleCanvas
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &559812114
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1799,6 +1838,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 559812111}
   m_CullTransparentMesh: 1
+--- !u!114 &559812116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 559812111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54e57c799960a414dafe0e067d47a080, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvasToToggle: {fileID: 530798007}
 --- !u!1 &566281972
 GameObject:
   m_ObjectHideFlags: 0
@@ -5957,7 +6009,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1562179366}
   m_LocalRotation: {x: -0.04294078, y: -0.65898705, z: 0.037907023, w: -0.7499702}
-  m_LocalPosition: {x: -88.72, y: 2.71, z: 29.836}
+  m_LocalPosition: {x: -92.15, y: 2.71, z: 29.11}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -7285,6 +7337,7 @@ GameObject:
   - component: {fileID: 2004443465}
   - component: {fileID: 2004443464}
   - component: {fileID: 2004443463}
+  - component: {fileID: 2004443466}
   m_Layer: 5
   m_Name: Car
   m_TagString: Untagged
@@ -7356,7 +7409,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2004443464}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2034660468}
+        m_TargetAssemblyTypeName: GameObjectActivator, Assembly-CSharp
+        m_MethodName: ToggleGameObjects
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2004443464
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7395,6 +7460,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2004443461}
   m_CullTransparentMesh: 1
+--- !u!114 &2004443466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2004443461}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3a18c9e0405e1e4bab17ef2a7d1b695, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectsToToggle: []
 --- !u!1 &2033373290
 GameObject:
   m_ObjectHideFlags: 0
@@ -7542,6 +7620,7 @@ GameObject:
   - component: {fileID: 2034660467}
   - component: {fileID: 2034660466}
   - component: {fileID: 2034660465}
+  - component: {fileID: 2034660468}
   m_Layer: 5
   m_Name: ZulgerScania
   m_TagString: Untagged
@@ -7613,7 +7692,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2034660466}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2034660468}
+        m_TargetAssemblyTypeName: GameObjectActivator, Assembly-CSharp
+        m_MethodName: ToggleGameObjects
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2034660466
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7652,6 +7743,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2034660463}
   m_CullTransparentMesh: 1
+--- !u!114 &2034660468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2034660463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3a18c9e0405e1e4bab17ef2a7d1b695, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectsToToggle:
+  - {fileID: 919132148959781272}
+  - {fileID: 919132149418638806}
+  - {fileID: 919132147722799138}
 --- !u!95 &2059895308
 Animator:
   serializedVersion: 5
