@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/gcm_defaultSenderId,@string/google_storage_bucket,@string/project_id,@string/google_api_key,@string/google_crash_reporting_api_key,@string/google_app_id">
-  <string name="gcm_defaultSenderId" translatable="false">584772550898</string>
-  <string name="google_storage_bucket" translatable="false">virtual-prototype.appspot.com</string>
-  <string name="project_id" translatable="false">virtual-prototype</string>
-  <string name="google_api_key" translatable="false">AIzaSyC-_5GLapjoo3MN4FnP-rSwEz4pfFa-yMM</string>
-  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyC-_5GLapjoo3MN4FnP-rSwEz4pfFa-yMM</string>
-  <string name="google_app_id" translatable="false">1:584772550898:android:e856fff617039ce98c506b</string>
-</resources>
