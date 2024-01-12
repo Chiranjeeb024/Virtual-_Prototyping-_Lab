@@ -7,6 +7,6 @@ public class RotationScript : MonoBehaviour
     void Update()
     {
         // Rotate the object around its forward axis (Z-axis) based on the input or a constant speed
-        transform.Rotate(Vector3.forward, -rotationSpeed * Time.deltaTime);
+        transform.Rotate(Vector3.forward, rotationSpeed * Time.deltaTime);
     }
 }

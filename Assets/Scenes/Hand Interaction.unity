@@ -1408,7 +1408,7 @@ PrefabInstance:
     - target: {fileID: 1125374247281001485, guid: 7d79744c11eb44b47b905b9f90a64082,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.41
+      value: 1.763
       objectReference: {fileID: 0}
     - target: {fileID: 1125374247281001485, guid: 7d79744c11eb44b47b905b9f90a64082,
         type: 3}
@@ -11599,7 +11599,7 @@ Transform:
   m_GameObject: {fileID: 1289464109662083626}
   serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: 5.32, y: -6.2442875, z: -3.68}
+  m_LocalPosition: {x: -0.06, y: -6.75, z: -3.68}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -12691,8 +12691,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7af4dd58c2e445459f75d695ec6f289, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gateAnimator: {fileID: 1865776969}
-  isPlayerNear: 1
 --- !u!114 &5700249661448095511
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12705,8 +12703,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7af4dd58c2e445459f75d695ec6f289, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gateAnimator: {fileID: 1054430415}
-  isPlayerNear: 1
 --- !u!64 &5700249661448095512
 MeshCollider:
   m_ObjectHideFlags: 0
