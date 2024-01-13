@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "584772550898",
-    "project_id": "virtual-prototype",
-    "storage_bucket": "virtual-prototype.appspot.com"
+    "project_number": "821556267351",
+    "project_id": "vision-vital",
+    "storage_bucket": "vision-vital.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:584772550898:android:e856fff617039ce98c506b",
+        "mobilesdk_app_id": "1:821556267351:android:137439f1a84e078d1f5612",
         "android_client_info": {
           "package_name": "com.DefaultCompany.VirtualPrototypingLabforEfficientProductDevelopment"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyC-_5GLapjoo3MN4FnP-rSwEz4pfFa-yMM"
+          "current_key": "AIzaSyAps9ugA8x-PYmkkwR4sDpFnJsV6a8STww"
         }
       ],
       "services": {

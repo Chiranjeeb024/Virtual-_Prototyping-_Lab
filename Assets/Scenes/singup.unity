@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -165,9 +165,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: '**********'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 45c315a4114430d4999fa3d0157b2574, type: 2}
-  m_sharedMaterial: {fileID: 9006007943405164241, guid: 45c315a4114430d4999fa3d0157b2574,
-    type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -339,9 +338,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Admin Panel
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 45c315a4114430d4999fa3d0157b2574, type: 2}
-  m_sharedMaterial: {fileID: 9006007943405164241, guid: 45c315a4114430d4999fa3d0157b2574,
-    type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -592,9 +590,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: E-mail
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 45c315a4114430d4999fa3d0157b2574, type: 2}
-  m_sharedMaterial: {fileID: 9006007943405164241, guid: 45c315a4114430d4999fa3d0157b2574,
-    type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1017,7 +1014,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   emailInput: {fileID: 627104630}
   passwordInput: {fileID: 2112339016}
-  transitionButton: {fileID: 0}
+  transitionButton: {fileID: 1753351800}
   debugLogText: {fileID: 0}
 --- !u!4 &852611340
 Transform:
@@ -1584,9 +1581,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: harryk98@gmail.com
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 45c315a4114430d4999fa3d0157b2574, type: 2}
-  m_sharedMaterial: {fileID: 9006007943405164241, guid: 45c315a4114430d4999fa3d0157b2574,
-    type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1831,19 +1827,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1753351801}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 852611339}
-        m_TargetAssemblyTypeName: authentication, Assembly-CSharp
-        m_MethodName: SignUp
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1753351801
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1941,9 +1925,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Create ID
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 45c315a4114430d4999fa3d0157b2574, type: 2}
-  m_sharedMaterial: {fileID: 9006007943405164241, guid: 45c315a4114430d4999fa3d0157b2574,
-    type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2128,9 +2111,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Password
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 45c315a4114430d4999fa3d0157b2574, type: 2}
-  m_sharedMaterial: {fileID: 9006007943405164241, guid: 45c315a4114430d4999fa3d0157b2574,
-    type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
