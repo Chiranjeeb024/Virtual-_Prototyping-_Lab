@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class copycol : MonoBehaviour
+public class copypos : MonoBehaviour
 {
     public Material newMaterial; 
     public GameObject objectBase1;

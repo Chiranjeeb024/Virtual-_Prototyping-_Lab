@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1408,7 +1408,7 @@ PrefabInstance:
     - target: {fileID: 1125374247281001485, guid: 7d79744c11eb44b47b905b9f90a64082,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.763
+      value: 1.585
       objectReference: {fileID: 0}
     - target: {fileID: 1125374247281001485, guid: 7d79744c11eb44b47b905b9f90a64082,
         type: 3}
@@ -1562,7 +1562,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_VideoClip
       value: 
-      objectReference: {fileID: 32900000, guid: 26fd375daa5e91348aa3907a37780398,
+      objectReference: {fileID: 32900000, guid: c34eae0060b195f4d8a028ba317d1383,
         type: 3}
     - target: {fileID: 3226697388550483188, guid: fc431b458b6e5b34f89c17fe68312696,
         type: 3}
@@ -13469,9 +13469,6 @@ GameObject:
   - component: {fileID: 3567777292768576978}
   - component: {fileID: 7313122464209052941}
   - component: {fileID: 7313122464209052940}
-  - component: {fileID: 7313122464209052939}
-  - component: {fileID: 7313122464209052938}
-  - component: {fileID: 7313122464209052937}
   - component: {fileID: 7313122464209052936}
   m_Layer: 0
   m_Name: Main Frame
@@ -16254,79 +16251,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 7.573179, y: 10.61123, z: 7.2094283}
   m_Center: {x: 0.000030332776, y: 0.37453336, z: -3.4989913}
---- !u!114 &7313122464209052937
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6170543121063691242}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e9a7676b01585ce43908639a27765dfc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactorFilters: []
-  _maxInteractors: -1
-  _maxSelectingInteractors: -1
-  _data: {fileID: 0}
-  _pointableElement: {fileID: 7313122464209052938}
-  _rigidbody: {fileID: 7313122464209052940}
-  _physicsGrabbable: {fileID: 0}
-  _resetGrabOnGrabsUpdated: 1
-  _scoringModifier:
-    _positionRotationWeight: 0.8
-  _supportedGrabTypes: 3
-  _pinchGrabRules:
-    _thumbRequirement: 1
-    _indexRequirement: 1
-    _middleRequirement: 1
-    _ringRequirement: 0
-    _pinkyRequirement: 0
-    _unselectMode: 0
-  _palmGrabRules:
-    _thumbRequirement: 1
-    _indexRequirement: 2
-    _middleRequirement: 2
-    _ringRequirement: 2
-    _pinkyRequirement: 1
-    _unselectMode: 0
-  _movementProvider: {fileID: 0}
-  _handAligment: 1
-  _handGrabPoses: []
---- !u!114 &7313122464209052938
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6170543121063691242}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 43f86b14a27b52f4f9298c33015b5c26, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _transferOnSecondSelection: 0
-  _addNewPointsToFront: 0
-  _forwardElement: {fileID: 0}
-  _oneGrabTransformer: {fileID: 0}
-  _twoGrabTransformer: {fileID: 0}
-  _targetTransform: {fileID: 0}
-  _maxGrabPoints: -1
---- !u!114 &7313122464209052939
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6170543121063691242}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9ea94aae4a19ebc479db11ab0045cf81, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  newMaterial: {fileID: 0}
-  objectBase1: {fileID: 0}
 --- !u!54 &7313122464209052940
 Rigidbody:
   m_ObjectHideFlags: 0
