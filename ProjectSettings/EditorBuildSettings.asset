@@ -6,9 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/Scenes/loading.unity
-    guid: fc6cd5b0f2d1cb346afe5c21962c141c
-  - enabled: 0
     path: Assets/Scenes/Lab.unity
     guid: 36007b80302e6184fbb62cbb6a789f82
   - enabled: 0
@@ -18,8 +15,8 @@ EditorBuildSettings:
     path: Assets/Scenes/singup.unity
     guid: 0110bd2c97d234841b48fed18c054830
   - enabled: 0
-    path: Assets/Samples/XR Interaction Toolkit/2.5.2/Hands Interaction Demo/HandsDemoScene.unity
-    guid: 3ff35cecbcc52cc42945cf531638a60a
+    path: Assets/Scenes/Hand Interaction.unity
+    guid: 42f4416de2056c64ab1869bd7e7116a1
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 07682b90f840f95438997db28cbe996a,
       type: 2}
